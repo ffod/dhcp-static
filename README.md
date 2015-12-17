@@ -16,11 +16,13 @@ useradd -m -s /bin/bash dhcpstatic
 
 cd /home/dhcpstatic
 
+su dhcpstatic
+
 git clone https://github.com/ffod/dhcp-static.git
 
-chown dhcpstatic:dhcpstatic dhcp-static -R
-
 chmod +x dhcp-static/updateStatic.sh
+
+exit
 
 /home/dhcpstatic/dhcp-static/updateStatic.sh
 
