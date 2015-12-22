@@ -24,6 +24,6 @@ chmod +x dhcp-static/updateStatic.sh
 
 exit
 
-/home/dhcpstatic/dhcp-static/updateStatic.sh
+/home/dhcpstatic/dhcp-static/updateStatics.sh
 
-*/5 * * * * root /home/dhcpstatic/dhcp-static/updateStatic.sh > /dev/null 2>&1
+*/5 * * * * root /home/dhcpstatic/dhcp-static/updateStatics.sh > /dev/null 2>&1
