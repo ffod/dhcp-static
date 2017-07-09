@@ -20,7 +20,7 @@ su dhcpstatic
 
 git clone https://github.com/ffod/dhcp-static.git
 
-chmod +x dhcp-static/updateStatic.sh
+chmod +x dhcp-static/updateStatics.sh
 
 exit
 
